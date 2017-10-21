@@ -17,7 +17,7 @@
 	<YawAxisRaw>
 		<Binding Device="SaitekX56Joystick" Key="Joy_RZAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.23999999" />
+		<Deadzone Value="0.12000000" />
 	</YawAxisRaw>
 	<YawLeftButton>
 		<Primary Device="{NoDevice}" Key="" />
@@ -38,7 +38,7 @@
 	<RollAxisRaw>
 		<Binding Device="SaitekX56Joystick" Key="Joy_XAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.29999998" />
+		<Deadzone Value="0.12000000" />
 	</RollAxisRaw>
 	<RollLeftButton>
 		<Primary Device="{NoDevice}" Key="" />
@@ -51,7 +51,7 @@
 	<PitchAxisRaw>
 		<Binding Device="SaitekX56Joystick" Key="Joy_YAxis" />
 		<Inverted Value="1" />
-		<Deadzone Value="0.29999998" />
+		<Deadzone Value="0.12000000" />
 	</PitchAxisRaw>
 	<PitchUpButton>
 		<Primary Device="{NoDevice}" Key="" />
@@ -64,7 +64,7 @@
 	<LateralThrustRaw>
 		<Binding Device="SaitekX56Throttle" Key="Joy_RXAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="0.12000000" />
 	</LateralThrustRaw>
 	<LeftThrustButton>
 		<Primary Device="{NoDevice}" Key="" />
@@ -77,7 +77,7 @@
 	<VerticalThrustRaw>
 		<Binding Device="SaitekX56Throttle" Key="Joy_RYAxis" />
 		<Inverted Value="1" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="0.12000000" />
 	</VerticalThrustRaw>
 	<UpThrustButton>
 		<Primary Device="{NoDevice}" Key="" />
@@ -88,9 +88,9 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</DownThrustButton>
 	<AheadThrust>
-		<Binding Device="{NoDevice}" Key="" />
-		<Inverted Value="0" />
-		<Deadzone Value="0.00000000" />
+		<Binding Device="SaitekX56Joystick" Key="Joy_RYAxis" />
+		<Inverted Value="1" />
+		<Deadzone Value="0.12000000" />
 	</AheadThrust>
 	<ForwardThrustButton>
 		<Primary Device="{NoDevice}" Key="" />
@@ -255,7 +255,7 @@
 	<AheadThrust_Landing>
 		<Binding Device="SaitekX56Joystick" Key="Joy_RYAxis" />
 		<Inverted Value="1" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="0.08000000" />
 	</AheadThrust_Landing>
 	<ForwardThrustButton_Landing>
 		<Primary Device="{NoDevice}" Key="" />
@@ -578,7 +578,7 @@
 	<HeadLookPitchAxisRaw>
 		<Binding Device="SaitekX56Joystick" Key="Joy_RYAxis" />
 		<Inverted Value="1" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="0.12000000" />
 	</HeadLookPitchAxisRaw>
 	<HeadLookYawLeft>
 		<Primary Device="{NoDevice}" Key="" />
@@ -591,7 +591,7 @@
 	<HeadLookYawAxis>
 		<Binding Device="SaitekX56Joystick" Key="Joy_RXAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="0.12000000" />
 	</HeadLookYawAxis>
 	<MotionHeadlook Value="0" />
 	<HeadlookMotionSensitivity Value="1.00000000" />
@@ -599,7 +599,7 @@
 	<CamPitchAxis>
 		<Binding Device="SaitekX56Joystick" Key="Joy_RYAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="0.12000000" />
 	</CamPitchAxis>
 	<CamPitchUp>
 		<Primary Device="{NoDevice}" Key="" />
@@ -612,7 +612,7 @@
 	<CamYawAxis>
 		<Binding Device="SaitekX56Joystick" Key="Joy_RXAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="0.13000000" />
 	</CamYawAxis>
 	<CamYawLeft>
 		<Primary Device="{NoDevice}" Key="" />
@@ -625,7 +625,7 @@
 	<CamTranslateYAxis>
 		<Binding Device="SaitekX56Throttle" Key="Joy_RYAxis" />
 		<Inverted Value="1" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="0.13000000" />
 	</CamTranslateYAxis>
 	<CamTranslateForward>
 		<Primary Device="{NoDevice}" Key="" />
@@ -638,7 +638,7 @@
 	<CamTranslateXAxis>
 		<Binding Device="SaitekX56Throttle" Key="Joy_RXAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="0.13000000" />
 	</CamTranslateXAxis>
 	<CamTranslateLeft>
 		<Primary Device="{NoDevice}" Key="" />
@@ -707,7 +707,7 @@
 	<BuggyRollAxisRaw>
 		<Binding Device="SaitekX56Joystick" Key="Joy_XAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="0.12000000" />
 	</BuggyRollAxisRaw>
 	<BuggyRollLeftButton>
 		<Primary Device="{NoDevice}" Key="" />
@@ -720,7 +720,7 @@
 	<BuggyPitchAxis>
 		<Binding Device="SaitekX56Joystick" Key="Joy_YAxis" />
 		<Inverted Value="1" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="0.12000000" />
 	</BuggyPitchAxis>
 	<BuggyPitchUpButton>
 		<Primary Device="{NoDevice}" Key="" />
@@ -760,14 +760,14 @@
 		<Primary Device="SaitekX56Joystick" Key="Joy_3" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</SelectTarget_Buggy>
-	<MouseTurretXMode Value="" />
+	<MouseTurretXMode Value="Bindings_MouseYaw" />
 	<MouseTurretXDecay Value="1" />
-	<MouseTurretYMode Value="" />
+	<MouseTurretYMode Value="Bindings_MousePitch" />
 	<MouseTurretYDecay Value="1" />
 	<BuggyTurretYawAxisRaw>
 		<Binding Device="SaitekX56Joystick" Key="Joy_RXAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.17000000" />
+		<Deadzone Value="0.12000000" />
 	</BuggyTurretYawAxisRaw>
 	<BuggyTurretYawLeftButton>
 		<Primary Device="{NoDevice}" Key="" />
@@ -780,7 +780,7 @@
 	<BuggyTurretPitchAxisRaw>
 		<Binding Device="SaitekX56Joystick" Key="Joy_RYAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.17999999" />
+		<Deadzone Value="0.12000000" />
 	</BuggyTurretPitchAxisRaw>
 	<BuggyTurretPitchUpButton>
 		<Primary Device="{NoDevice}" Key="" />
@@ -913,7 +913,7 @@
 	<MultiCrewThirdPersonYawAxisRaw>
 		<Binding Device="SaitekX56Joystick" Key="Joy_XAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="0.09000000" />
 	</MultiCrewThirdPersonYawAxisRaw>
 	<MultiCrewThirdPersonYawLeftButton>
 		<Primary Device="{NoDevice}" Key="" />
@@ -926,7 +926,7 @@
 	<MultiCrewThirdPersonPitchAxisRaw>
 		<Binding Device="SaitekX56Joystick" Key="Joy_YAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="0.09000000" />
 	</MultiCrewThirdPersonPitchAxisRaw>
 	<MultiCrewThirdPersonPitchUpButton>
 		<Primary Device="{NoDevice}" Key="" />
@@ -936,7 +936,7 @@
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</MultiCrewThirdPersonPitchDownButton>
-	<MultiCrewThirdPersonMouseSensitivity Value="30.00000000" />
+	<MultiCrewThirdPersonMouseSensitivity Value="40.07999802" />
 	<MultiCrewThirdPersonFovAxisRaw>
 		<Binding Device="{NoDevice}" Key="" />
 		<Inverted Value="0" />
@@ -972,7 +972,7 @@
 	</OrderAggressiveBehaviour>
 	<OrderFocusTarget>
 		<Primary Device="Keyboard" Key="Key_Numpad_3" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="SaitekX56Throttle" Key="Joy_5" />
 	</OrderFocusTarget>
 	<OrderHoldFire>
 		<Primary Device="Keyboard" Key="Key_Numpad_4" />
@@ -1067,7 +1067,7 @@
 	<MoveFreeCamY>
 		<Binding Device="SaitekX56Joystick" Key="Joy_RYAxis" />
 		<Inverted Value="1" />
-		<Deadzone Value="0.17000000" />
+		<Deadzone Value="0.13000000" />
 	</MoveFreeCamY>
 	<ThrottleRangeFreeCam Value="" />
 	<ToggleReverseThrottleInputFreeCam>
@@ -1086,7 +1086,7 @@
 	<MoveFreeCamX>
 		<Binding Device="SaitekX56Throttle" Key="Joy_RXAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.17000000" />
+		<Deadzone Value="0.13000000" />
 	</MoveFreeCamX>
 	<MoveFreeCamRight>
 		<Primary Device="{NoDevice}" Key="" />
@@ -1099,7 +1099,7 @@
 	<MoveFreeCamZ>
 		<Binding Device="SaitekX56Throttle" Key="Joy_RYAxis" />
 		<Inverted Value="1" />
-		<Deadzone Value="0.17000000" />
+		<Deadzone Value="0.13000000" />
 	</MoveFreeCamZ>
 	<MoveFreeCamUpAxis>
 		<Binding Device="{NoDevice}" Key="" />
@@ -1124,7 +1124,7 @@
 	<PitchCamera>
 		<Binding Device="SaitekX56Joystick" Key="Joy_YAxis" />
 		<Inverted Value="1" />
-		<Deadzone Value="0.14999999" />
+		<Deadzone Value="0.13000000" />
 	</PitchCamera>
 	<FreeCamMouseSensitivity Value="5.00000000" />
 	<FreeCamMouseYDecay Value="1" />
@@ -1139,7 +1139,7 @@
 	<YawCamera>
 		<Binding Device="SaitekX56Joystick" Key="Joy_XAxis" />
 		<Inverted Value="1" />
-		<Deadzone Value="0.14999999" />
+		<Deadzone Value="0.13000000" />
 	</YawCamera>
 	<FreeCamMouseXDecay Value="1" />
 	<YawCameraLeft>
@@ -1153,7 +1153,7 @@
 	<RollCamera>
 		<Binding Device="SaitekX56Joystick" Key="Joy_RXAxis" />
 		<Inverted Value="1" />
-		<Deadzone Value="0.17000000" />
+		<Deadzone Value="0.13000000" />
 	</RollCamera>
 	<RollCameraLeft>
 		<Primary Device="{NoDevice}" Key="" />
